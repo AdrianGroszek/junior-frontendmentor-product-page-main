@@ -1,0 +1,29 @@
+:root {
+	--color-primary-cyan-light: hsl(176, 50%, 47%);
+	--color-primary-cyan-dark: hsl(176, 72%, 28%);
+
+	--color-black: hsl(0, 0%, 0%);
+	--color-gray-dark: hsl(0, 0%, 48%);
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	min-height: 100vh;
+	font-size: 1.6rem;
+	font-family: 'Commissioner', sans-serif;
+}
