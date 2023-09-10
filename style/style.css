@@ -27,3 +27,68 @@ body {
 	font-size: 1.6rem;
 	font-family: 'Commissioner', sans-serif;
 }
+/* start hero image with navbar */
+.hero {
+	height: 60vh;
+	width: 100%;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.1)
+		),
+		url(/images/image-hero-desktop.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 120rem;
+	margin: 0 auto;
+	padding-top: 5rem;
+}
+
+.navigation-box__link:link,
+.navigation-box__link:active,
+.navigation-box__link:visited {
+	text-decoration: none;
+	color: #fff;
+	padding: 1.5rem 1.5rem;
+	transition: color 0.3s;
+}
+
+.navigation-box__link:hover {
+	color: #ddd;
+}
+/* end hero image with navbar */
+
+/* start main content section (first box) */
+
+.content {
+}
+
+.content__container-1 {
+}
+
+.content__heading {
+}
+
+.content__description {
+}
+
+.content__btn-container {
+}
+
+.btn {
+}
+
+.content__btn-container--btn-green {
+}
+
+.content__btn-container--btn-bookmark {
+}
+
+/* end main content section (first box) */
